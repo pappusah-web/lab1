@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            padding: 20px;
+        }
+        .registration-form {
+            background: #ffffff;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input[type="text"],
+        .form-group input[type="password"],
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .form-group textarea {
+            resize: vertical;
+            height: 80px;
+        }
+        .inline-group {
+            display: flex;
+            gap: 10px;
+        }
+        .inline-group select {
+            flex: 1;
+        }
+        .checkbox-group, .radio-group {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        .checkbox-group label, .radio-group label {
+            font-weight: normal;
+            display: inline;
+        }
+        .submit-btn {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+        .submit-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="registration-form">
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        
+        <!-- 1) Name -->
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <!-- 2) Password -->
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+        <!-- 3) E-mail id -->
+        <div class="form-group">
+            <label for="email">E-mail ID:</label>
+            <input type="text" id="email" name="email" required>
+        </div>
+
+        <!-- 4) Phone Number -->
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required>
+        </div>
+
+        <!-- 5) Sex -->
+        <div class="form-group">
+            <label>Sex:</label>
+            <div class="radio-group">
+                <input type="radio" id="male" name="sex" value="Male">
+                <label for="male">Male</label>
+                
+                <input type="radio" id="female" name="sex" value="Female">
+                <label for="female">Female</label>
+                
+                <input type="radio" id="other" name="sex" value="Other">
+                <label for="other">Other</label>
+            </div>
+        </div>
+
+        <!-- 6) Date of Birth -->
+        <div class="form-group">
+            <label>Date of Birth:</label>
+            <div class="inline-group">
+                <!-- Day Select Box -->
+                <select name="dob_day">
+                    <option value="">Day</option>
+                    <!-- JavaScript or manual options can go here, simple static example below -->
+                    <script>
+                        for (let i = 1; i <= 31; i++) {
+                            document.write(`<option value="${i}">${i}</option>`);
+                        }
+                    </script>
+                </select>
+                
+                <!-- Month Select Box -->
+                <select name="dob_month">
+                    <option value="">Month</option>
+                    <option value="Jan">January</option>
+                    <option value="Feb">February</option>
+                    <option value="Mar">March</option>
+                    <option value="Apr">April</option>
+                    <option value="May">May</option>
+                    <option value="Jun">June</option>
+                    <option value="Jul">July</option>
+                    <option value="Aug">August</option>
+                    <option value="Sep">September</option>
+                    <option value="Oct">October</option>
+                    <option value="Nov">November</option>
+                    <option value="Dec">December</option>
+                </select>
+                
+                <!-- Year Select Box -->
+                <select name="dob_year">
+                    <option value="">Year</option>
+                    <script>
+                        const currentYear = new Date().getFullYear();
+                        for (let i = currentYear; i >= currentYear - 100; i--) {
+                            document.write(`<option value="${i}">${i}</option>`);
+                        }
+                    </script>
+                </select>
+            </div>
+        </div>
+
+        <!-- 7) Languages Known -->
+        <div class="form-group">
+            <label>Languages Known:</label>
+            <div class="checkbox-group">
+                <input type="checkbox" id="lang_en" name="languages" value="English">
+                <label for="lang_en">English</label>
+                
+                <input type="checkbox" id="lang_te" name="languages" value="Telugu">
+                <label for="lang_te">Telugu</label>
+                
+                <input type="checkbox" id="lang_hi" name="languages" value="Hindi">
+                <label for="lang_hi">Hindi</label>
+                
+                <input type="checkbox" id="lang_ta" name="languages" value="Tamil">
+                <label for="lang_ta">Tamil</label>
+            </div>
+        </div>
+
+        <!-- 8) Address -->
+        <div class="form-group">
+            <label for="address">Address:</label>
+            <textarea id="address" name="address"></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="submit-btn">Register</button>
+
+    </form>
+</div>
+
+</body>
+</html>
+STATIC UI ->  REACT . JS 
