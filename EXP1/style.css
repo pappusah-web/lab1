@@ -1,0 +1,789 @@
+/* Main content area */
+.main {
+   
+  margin-top: 50px;    /* space for header */
+  padding: 10px;
+}
+
+/* Content box styling */
+.content-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  text-align: center;
+  width: 80%;
+  margin: 0 ;
+  margin-left: 10px;
+}
+
+/* Heading */
+.content-box h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Paragraph */
+.content-box p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+a:hover {
+    background-color: #ff6600;
+    color: black;
+}
+
+
+a.home, a.login, a.register, a.catalogue, a.cart {
+    display: inline-block;
+}
+
+/* Catalogue container */
+.catalogue-container {
+  margin-left: 240px; /* space for sidebar */
+  margin-top: 100px;  /* space for header */
+  padding: 30px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Heading */
+.catalogue-container h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Table styling */
+.catalogue-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.catalogue-table th, 
+.catalogue-table td {
+  padding: 14px 20px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.catalogue-table th {
+  background-color: orange;
+  color: white;
+  font-size: 18px;
+}
+
+.catalogue-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.catalogue-table tr:hover {
+  background-color: #ffe0b3;
+  transition: background-color 0.3s ease;
+}
+
+/* Note below table */
+.note {
+  margin-top: 15px;
+  font-size: 15px;
+  color: #555;
+  text-align: center;
+}
+
+/* Catalogue container */
+.catalogue-container {
+  margin-left: 240px; /* space for sidebar */
+  margin-top: 100px;  /* space for header */
+  padding: 30px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Heading */
+.catalogue-container h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Table styling */
+.catalogue-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.catalogue-table th, 
+.catalogue-table td {
+  padding: 14px 20px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.catalogue-table th {
+  background-color: orange;
+  color: white;
+  font-size: 18px;
+}
+
+.catalogue-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.catalogue-table tr:hover {
+  background-color: #ffe0b3;
+  transition: background-color 0.3s ease;
+}
+
+/* Note below table */
+.note {
+  margin-top: 15px;
+  font-size: 15px;
+  color: #555;
+  text-align: center;
+}
+
+/* Catalogue container */
+.catalogue-container {
+  margin-left: 240px; /* space for sidebar */
+  margin-top: 100px;  /* space for header */
+  padding: 30px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Heading */
+.catalogue-container h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Table styling */
+.catalogue-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.catalogue-table th, 
+.catalogue-table td {
+  padding: 14px 20px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.catalogue-table th {
+  background-color: orange;
+  color: white;
+  font-size: 18px;
+}
+
+.catalogue-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.catalogue-table tr:hover {
+  background-color: #ffe0b3;
+  transition: background-color 0.3s ease;
+}
+
+/* Catalogue container */
+.catalogue-container {
+  margin-left: 240px;
+  margin-top: 100px;
+  padding: 30px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Heading */
+.catalogue-container h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Table styling */
+.catalogue-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.catalogue-table th, 
+.catalogue-table td {
+  padding: 14px 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.catalogue-table th {
+  background-color: orange;
+  color: white;
+  font-size: 18px;
+}
+
+.catalogue-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.catalogue-table tr:hover {
+  background-color: #ffe0b3;
+  transition: background-color 0.3s ease;
+}
+
+/* Book image styling */
+.book-img {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Add to Cart button */
+.cart-btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-btn:hover {
+  background-color: #ff6600;
+}
+
+/* Note below table */
+.note {
+  margin-top: 15px;
+  font-size: 15px;
+  color: #555;
+  text-align: center;
+}
+
+
+/* Note below table */
+.note {
+  margin-top: 15px;
+  font-size: 15px;
+  color: #555;
+  text-align: center;
+}
+
+
+/* Center the login form */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* full screen height */
+}
+
+/* Style the login box */
+.login-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Increase size of inputs and button */
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: 300px;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.login-box button {
+  width: 320px;
+  padding: 14px;
+  font-size: 18px;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.content {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* full screen height */
+
+}
+
+/* General body styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+
+
+/* Main content */
+.main {
+  margin-left: 220px;
+  padding: 40px;
+}
+
+.main h3 {
+  font-size: 26px;
+  color: #444;
+}
+
+.main p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+
+/* Reset */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0px; /* below header */
+    left: 0;
+    width: 350px;
+    height: 600px;
+    background: linear-gradient(180deg, #ffcc00, #ff9900);
+    padding: 20px;
+    box-shadow: 2px 0 8px rgba(0,0,0,0.2);
+}
+
+.sidebar h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 15px 0;
+}
+
+.sidebar a {
+    display: block;
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.3);
+    transition: all 0.3s ease;
+}
+
+.sidebar a:hover {
+    background-color: #333;
+    color: #fff;
+    transform: translateX(5px);
+}
+
+
+/* Center the registration form */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* full screen height */
+  background-color: #f9f9f9;
+}
+
+/* Registration box styling */
+.register-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  text-align: center;
+  width: 350px;
+}
+
+/* Heading */
+.register-box h2 {
+  margin-bottom: 20px;
+  margin-top: 350px;
+  color: #333;
+  font-size: 26px;
+}
+
+/* Input fields */
+.register-box input[type="text"],
+.register-box input[type="email"],
+.register-box input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.register-box input:focus {
+  border-color: orange;
+  outline: none;
+}
+
+/* Button styling */
+.register-box button {
+  width: 100%;
+  padding: 14px;
+  font-size: 18px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-box button:hover {
+  background-color: #ff6600;
+}
+
+/* Catalogue container */
+.catalogue-container {
+  margin-left: 10px; /* space for sidebar */
+  margin-top: 50px;  /* space for header */
+  padding: 30px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Heading */
+.catalogue-container h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Table styling */
+.catalogue-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.catalogue-table th, 
+.catalogue-table td {
+  padding: 14px 20px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.catalogue-table th {
+  background-color: orange;
+  color: white;
+  font-size: 18px;
+}
+
+.catalogue-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.catalogue-table tr:hover {
+  background-color: #ffe0b3;
+  transition: background-color 0.3s ease;
+}
+
+/* Note below table */
+.note {
+  margin-top: 15px;
+  font-size: 15px;
+  color: #555;
+  text-align: center;
+}
+
+/* Cart container */
+.cart-container {
+  margin-left: 20px; /* space for sidebar */
+  margin-top: 50px;  /* space for header */
+  padding: 30px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Heading */
+.cart-container h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Empty cart message */
+.empty-cart {
+  background: #fff3cd;
+  border: 1px solid #ffeeba;
+  color: #856404;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Cart table */
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.cart-table th, 
+.cart-table td {
+  padding: 14px 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.cart-table th {
+  background-color: orange;
+  color: white;
+  font-size: 18px;
+}
+
+.cart-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.cart-table tr:hover {
+  background-color: #ffe0b3;
+  transition: background-color 0.3s ease;
+
+}
+
+.cart-container {
+  margin-left: 20px;
+  margin-top: 50px;
+  padding: 30px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.cart-container h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.cart-table th, 
+.cart-table td {
+  padding: 14px 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.cart-table th {
+  background-color: orange;
+  color: white;
+  font-size: 18px;
+}
+
+.cart-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.cart-table tr:hover {
+  background-color: #ffe0b3;
+  transition: background-color 0.3s ease;
+}
+
+.book-img {
+  width: 70px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.remove-btn {
+  padding: 6px 12px;
+  font-size: 14px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.amount-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.amount-btn {
+  padding: 4px 10px;
+  font-size: 14px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.amount-btn:hover {
+  background-color: #ff6600;
+}
+
+.amount-value {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.remove-btn:hover {
+  background-color: #a71d2a;
+}
+
+.total-section {
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.checkout-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 14px 28px;
+  font-size: 18px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-btn:hover {
+  background-color: #ff6600;
+}
+
+
+/* Checkout button */
+.checkout-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 14px 28px;
+  font-size: 18px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-btn:hover {
+  background-color: #ff6600;
+}
+
+.site-footer {
+  width: 100%;
+  background-color: #333;   
+  color: #fff;             
+  text-align: center;
+  padding: 8px 0;
+  font-size: 13px;
+  position: fixed;         
+  bottom: 0;
+  left: 0;
+}
+.site-footer {
+  width: 100%;
+  background: linear-gradient(90deg, #ff6600, #ffcc00); /* orange gradient */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  position: relative; /* since you're using frameset, footer.html handles positioning */
+}
+
+/* Text effect */
+.site-footer p {
+  margin: 0;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect */
+.site-footer p:hover {
+  transform: scale(1.1);
+  color: #000;
+}
